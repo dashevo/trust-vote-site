@@ -1,9 +1,13 @@
 import React from 'react';
-import CandidateSelector from './CandidateSelector';
+import Example from './example';
 
 class App extends React.Component {
   render() {
-    return <CandidateSelector />;
+    return (
+      <div style={{ marginTop: '20px' }}>
+        <Example />
+      </div>
+    );
   }
 }
 
