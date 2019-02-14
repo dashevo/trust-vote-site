@@ -1,39 +1,33 @@
 import React from 'react';
 import { Dropdown } from 'semantic-ui-react';
+import CandidateOptions from '../candidates.json';
 
 class CandidateSelector extends React.Component {
-  state = { selected: [] };
+  state = { searchQuery: '' };
 
-  onCSChange = selected => {
-    console.log(selected);
-    this.setState({ selected });
-  };
+  onChange = (e, { searchQuery, value }) =>
+    this.setState({ searchQuery, value });
+  onSearchChange = (e, { searchQuery }) => this.setState({ searchQuery });
+
+  componentDidMount() {
+    console.log(this.state.value);
+  }
 
   render() {
-    const options = [
-      { label: 'Setzer Gabbiani', value: 'sgabbiani' },
-      { label: 'Cyan Garamonde', value: 'cgaramonde' },
-      { label: 'Edgar Figaro', value: 'efigaro' },
-      { label: 'Clyde Arrowny', value: 'carrowny' },
-      { label: 'Locke Cole', value: 'lcole' },
-      { label: 'Sabin Figaro', value: 'sfigaro' },
-      { label: 'Relm Arrowny', value: 'rarrowny' },
-      { label: 'Strago Magus', value: 'smagus' },
-      { label: 'Celes Chere', value: 'cchere' },
-      { label: 'Terra Branford', value: 'tbranford' },
-      { label: 'Leo Cristophe', value: 'lcristophe' },
-      { label: 'Kefka Palazzo', value: 'kpalazzo' },
-    ];
+    const { searchQuery, value } = this.state;
 
     return (
       <Dropdown
-        placeholder="Select your candidates"
         fluid
         multiple
+        onChange={this.onChange}
+        onSearchChange={this.onSearchChange}
+        options={CandidateOptions}
+        placeholder="Candidates"
+        search
+        searchQuery={searchQuery}
         selection
-        options={options}
-        selected={this.state.selected}
-        onChange={this.onCSChange}
+        value={value}
       />
     );
   }
