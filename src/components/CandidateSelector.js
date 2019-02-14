@@ -9,10 +9,6 @@ class CandidateSelector extends React.Component {
     this.setState({ searchQuery, value });
   onSearchChange = (e, { searchQuery }) => this.setState({ searchQuery });
 
-  componentDidMount() {
-    console.log(this.state.value);
-  }
-
   render() {
     const { searchQuery, value } = this.state;
 

@@ -1,61 +1,61 @@
 [
   {
-    "label": "Setzer Gabbiani",
+    "text": "Setzer Gabbiani",
     "value": "sgabbiani",
     "key": "sgabbiani"
   },
   {
-    "label": "Cyan Garamonde",
+    "text": "Cyan Garamonde",
     "value": "cgaramonde",
     "key": "cgaramonde"
   },
   {
-    "label": "Edgar Figaro",
+    "text": "Edgar Figaro",
     "value": "efigaro",
     "key": "efigaro"
   },
   {
-    "label": "Clyde Arrowny",
+    "text": "Clyde Arrowny",
     "value": "carrowny",
     "key": "carrowny"
   },
   {
-    "label": "Locke Cole",
+    "text": "Locke Cole",
     "value": "lcole",
     "key": "lcole"
   },
   {
-    "label": "Sabin Figaro",
+    "text": "Sabin Figaro",
     "value": "sfigaro",
     "key": "sfigaro"
   },
   {
-    "label": "Relm Arrowny",
+    "text": "Relm Arrowny",
     "value": "rarrowny",
     "key": "rarrowny"
   },
   {
-    "label": "Strago Magus",
+    "text": "Strago Magus",
     "value": "smagus",
     "key": "smagus"
   },
   {
-    "label": "Celes Chere",
+    "text": "Celes Chere",
     "value": "cchere",
     "key": "cchere"
   },
   {
-    "label": "Terra Branford",
+    "text": "Terra Branford",
     "value": "tbranford",
     "key": "tbranford"
   },
   {
-    "label": "Leo Cristophe",
+    "text": "Leo Cristophe",
     "value": "lcristophe",
     "key": "lcristophe"
   },
   {
-    "label": "Kefka Palazzo",
+    "text": "Kefka Palazzo",
     "value": "kpalazzo",
     "key": "kpalazzo"
   }

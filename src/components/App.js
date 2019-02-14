@@ -1,11 +1,11 @@
 import React from 'react';
-import Example from './example';
+import CandidateSelector from './CandidateSelector';
 
 class App extends React.Component {
   render() {
     return (
       <div style={{ marginTop: '20px' }}>
-        <Example />
+        <CandidateSelector />
       </div>
     );
   }
