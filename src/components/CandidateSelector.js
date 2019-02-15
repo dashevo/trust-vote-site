@@ -3,15 +3,18 @@ import { Dropdown, Label, Segment, Button } from 'semantic-ui-react';
 import CandidateOptions from '../candidates.json';
 
 class CandidateSelector extends React.Component {
-  state = { searchQuery: '' };
+  state = { searchQuery: '', value: [], message: '' };
 
-  onChange = (e, { searchQuery, value }) =>
-    this.setState({ searchQuery, value });
+  onChange = (e, { searchQuery, value }) => {
+    // regenerate message each time based on 'value' array
+    const message = value.join('|');
+    this.setState({ searchQuery, value, message });
+  };
   onSearchChange = (e, { searchQuery }) => this.setState({ searchQuery });
 
-  onSubmit = event => {
-    event.target.preventDefault();
-    console.log('hi there, submitted');
+  onButtonPress = event => {
+    console.log(this.state.message);
+    // this.event.disable;
   };
 
   render() {
@@ -25,7 +28,6 @@ class CandidateSelector extends React.Component {
           fluid
           multiple
           onChange={this.onChange}
-          onSubmit={this.onSubmit}
           onSearchChange={this.onSearchChange}
           options={CandidateOptions}
           placeholder="Candidates"
@@ -34,7 +36,9 @@ class CandidateSelector extends React.Component {
           selection
           value={value}
         />
-        <Button className="ui primary">Done</Button>
+        <Button onClick={this.onButtonPress} className="ui primary">
+          Done
+        </Button>
       </Segment>
     );
   }

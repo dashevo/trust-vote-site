@@ -22,9 +22,7 @@ class VoteMessage extends React.Component {
       <Segment>
         <Label>{this.props.label}</Label>
         <Form>
-          <TextArea disabled ref={this.textAreaRef}>
-            {payload}
-          </TextArea>
+          <TextArea disabled ref={this.textAreaRef} value={payload} />
         </Form>
         <Button className="ui primary" onClick={this.copyToClipboard}>
           Copy to Clipboard
