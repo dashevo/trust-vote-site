@@ -18,8 +18,8 @@ class App extends React.Component {
         />
         <br />
         <VoteMessage
-          payload={this.state.payload}
           label="2. Sign Message Using MN Collateral Key"
+          payload={this.state.payload}
         />
       </div>
     );
