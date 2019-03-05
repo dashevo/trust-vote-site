@@ -53,7 +53,7 @@ class VoteMessage extends React.Component {
       return this.setState({ errorMessage: 'Fields cannot be empty' });
     }
 
-    const isValidAddr = dashcore.Address.isValid(address, 'testnet');
+    const isValidAddr = dashcore.Address.isValid(address, 'mainnet');
     if (!isValidAddr) {
       return this.setState({ errorMessage: 'Invalid Dash Address' });
     }
