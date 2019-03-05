@@ -1,6 +1,7 @@
 import React from 'react';
 import CandidateSelector from './CandidateSelector';
 import VoteMessage from './VoteMessage';
+import { ReactComponent as Logo } from '../logo.svg';
 
 class App extends React.Component {
   state = { payload: '', voteMessageVisible: false, activeStep: 1 };
@@ -32,6 +33,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container" style={{ marginTop: '20px' }}>
+        <Logo style={{ width: '200px', height: 'auto', marginTop: '20px' }} />
         <CandidateSelector
           label="1. Choose your candidate(s), (select as many as you want):"
           setMessage={this.setMessage}
