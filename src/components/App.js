@@ -33,7 +33,7 @@ class App extends React.Component {
     return (
       <div className="ui container" style={{ marginTop: '20px' }}>
         <CandidateSelector
-          label="1. Choose your candidate(s):"
+          label="1. Choose your candidate(s), (select as many as you want):"
           setMessage={this.setMessage}
           shouldDim={!(this.state.activeStep === 1)}
           twoStep={this.moveToStep}
