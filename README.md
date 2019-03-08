@@ -1,4 +1,4 @@
-# dte-site
+# trust-vote-site
 
 > Dash Trust Elections - MNO Voting Site
 

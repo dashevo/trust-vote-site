@@ -1,5 +1,5 @@
 {
-  "name": "dte-site",
+  "name": "trust-vote-site",
   "version": "0.1.0",
   "dependencies": {
     "@dashevo/dashcore-lib": "^0.16.8",
