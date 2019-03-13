@@ -7,9 +7,13 @@ import './CandidateList.css';
 // in this own component?)
 const CandidateList = props => {
   const { candidates, onChange } = props;
-  const ballotOptions = candidates.map(({ key, value, text }) => {
+  const ballotOptions = candidates.map(({ key, value, text, alias }) => {
+    let label = text;
+    if (alias.length > 0) {
+      label = `${text} - ${alias}`;
+    }
     return (
-      <Checkbox key={key} value={value} label={text} onChange={onChange} />
+      <Checkbox key={key} value={value} label={label} onChange={onChange} />
     );
   });
   return <div className="candidate-list">{ballotOptions}</div>;
