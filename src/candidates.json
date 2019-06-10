@@ -1,44 +1,68 @@
 [
   {
-    "alias": "aardvark2019",
-    "text": "Allen Aardvark",
-    "value": "aaardvark",
-    "key": "aaardvark"
+    "alias": "Amanda B. Johnson",
+    "text": "Amanda Johnson",
+    "value": "ajohnson",
+    "key": "ajohnson"
   },
   {
-    "alias": "bandicoot2019",
-    "text": "Betty Bandicoot",
-    "value": "bbandicoot",
-    "key": "bbandicoot"
+    "alias": "Drako",
+    "text": "Andrew Kerdemelidis",
+    "value": "akerdemelidis",
+    "key": "akerdemelidis"
   },
   {
-    "alias": "caribou2019",
-    "text": "Cornelius Caribou",
-    "value": "ccaribou",
-    "key": "ccaribou"
+    "alias": "",
+    "text": "Bryan Courchesne",
+    "value": "bcourchesne",
+    "key": "bcourchesne"
   },
   {
-    "alias": "duck2019",
-    "text": "Daphne Duck",
-    "value": "dduck",
-    "key": "dduck"
+    "alias": "",
+    "text": "Cole Allen",
+    "value": "callen",
+    "key": "callen"
   },
   {
-    "alias": "elwood",
-    "text": "Elwood Elephant",
-    "value": "eelephant",
-    "key": "eelephant"
+    "alias": "",
+    "text": "Eric Balog",
+    "value": "ebalog",
+    "key": "ebalog"
   },
   {
-    "alias": "fox2019",
-    "text": "Fernanda Fox",
-    "value": "ffox",
-    "key": "ffox"
+    "alias": "Unchained",
+    "text": "Hytham Abdel-Karim",
+    "value": "habdelkarim",
+    "key": "habdelkarim"
   },
   {
-    "alias": "giraffe2019",
-    "text": "Gonçalo Giraffe",
-    "value": "ggiraffe",
-    "key": "ggiraffe"
+    "alias": "",
+    "text": "Matthijs Vogelenzang",
+    "value": "mvogelenzang",
+    "key": "mvogelenzang"
+  },
+  {
+    "alias": "walter",
+    "text": "Michael Lewis",
+    "value": "mlewis",
+    "key": "mlewis"
+  },
+  {
+    "alias": "",
+    "text": "Rupan Sarma",
+    "value": "rsarma",
+    "key": "rsarma"
+  },
+  {
+    "alias": "kodaxx",
+    "text": "Spencer Kuzara",
+    "value": "skuzara",
+    "key": "skuzara"
+  },
+  {
+    "alias": "essra",
+    "text": "Jan Heinrich Meyer",
+    "value": "jhmeyer",
+    "key": "jhmeyer"
   }
 ]
