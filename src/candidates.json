@@ -18,6 +18,12 @@
     "key": "bcourchesne"
   },
   {
+    "alias": "kanuuker",
+    "text": "Chris Webb",
+    "value": "cwebb",
+    "key": "cwebb"
+  },
+  {
     "alias": "",
     "text": "Cole Allen",
     "value": "callen",
@@ -34,6 +40,12 @@
     "text": "Hytham Abdel-Karim",
     "value": "habdelkarim",
     "key": "habdelkarim"
+  },
+  {
+    "alias": "essra",
+    "text": "Jan Heinrich Meyer",
+    "value": "jhmeyer",
+    "key": "jhmeyer"
   },
   {
     "alias": "",
@@ -58,11 +70,5 @@
     "text": "Spencer Kuzara",
     "value": "skuzara",
     "key": "skuzara"
-  },
-  {
-    "alias": "essra",
-    "text": "Jan Heinrich Meyer",
-    "value": "jhmeyer",
-    "key": "jhmeyer"
   }
 ]
