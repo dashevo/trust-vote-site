@@ -41,7 +41,7 @@ class App extends React.Component {
           twoStep={this.moveToStep}
         />
         <VoteMessage
-          label="2. Sign Message Using MN Collateral Key"
+          label="2. Sign Message Using MN Collateral, Owner or Voting Key"
           payload={this.state.payload}
           visible={this.state.voteMessageVisible}
         />

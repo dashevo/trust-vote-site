@@ -137,7 +137,7 @@ class VoteMessage extends React.Component {
         <Form onSubmit={this.onFormSubmit}>
           <Input
             fluid
-            placeholder="Masternode Collateral Address"
+            placeholder="MN Collateral, Owner or Voting Address"
             value={this.state.address}
             onChange={this.onAddressChange}
           />
