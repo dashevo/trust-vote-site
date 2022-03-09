@@ -73,7 +73,7 @@ class VoteMessage extends React.Component {
 
     // TODO: handle network errors / what if promise never returned?
     try {
-      const response = await dtevote.post('/vote', {
+      const response = await dtevote.post('/api/vote', {
         addr: address,
         msg: payload,
         sig: signature,
